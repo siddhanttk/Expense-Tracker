@@ -35,7 +35,7 @@ function App() {
   }
   return (
     <div>
-      <h3>Track Your Daily Expenses</h3>
+      <h3>Track Your Daily Expenses!</h3>
       <NewExpense onAddExpense={addExpense}></NewExpense>
       <Expenses items={expenses}></Expenses>
     </div>
